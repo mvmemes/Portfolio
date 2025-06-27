@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio website</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://kit.fontawesome.com/b1f6998dbc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- HEADER SECTION -->
+<div id="header">
+  <div class="container">
+    <div class="header-text">
+      <h1>Data Analyst</h1>
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <!-- <i class="fa-solid fa-xmark" onclick="closemenu()"></i> -->
+      </ul>
+      <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+    </nav>
+
+    <div class="header-text1">
+      <h1>Hi, I'm <span> Mansi </span><br>from Pune, India</h1>
+    </div>
+  </div>
+</div>
+
+<!-- About Section -->
+<div id="About">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/Mansiphoto.jpg" alt="Profile Photo">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+                        <p>Currently working in the data space where I analyze, clean, and visualize data to drive business decisions. I’ve gained hands-on experience with tools like Power BI, SQL, and Excel to generate reports, uncover insights, and support cross-functional teams.
+                Along the way, I’ve also explored the data engineering side — working on small-scale ETL processes, data formatting, and understanding how raw data flows into reporting systems. 
+                Beyond technical work, I’m deeply interested in project management — especially in tech and data-related projects. I enjoy organizing tasks, collaborating with teams, and understanding how to deliver solutions on time with impact. 
+                Open to learning, collaboration, and new opportunities where I can combine data skills + a strategic mindset.</p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+          <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+          <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+        </div>
+
+        <!-- Skills -->
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+                        <li><span>Languages :</span><br>Java, Python, 
+                        DSA in Java, Machine Learning in Python,
+                        Cybersecurity,HTML,CSS, JavaScript.</li>
+                        <li><span>Database :</span><br>SQL,MongoDB.</li>
+                        <li><span>Developer Tools :</span><br>Visual Studio, MYSQL,Databricks, PowerBI.</li>
+                        <li><span>Project Management:</span><br>
+                            Project reporting ,Quality control ,
+                            Risk assessment ,Risk management ,
+                            Solution development ,Strategic planning ,
+                            Strong interpersonal skills,Monitoring, 
+                            Multitasking , Planning ,Prioritizing</li>
+          </ul>
+        </div>
+
+        <!-- Experience -->
+        <div class="tab-contents" id="experience">
+          <ul>
+<li><span2>PepsiCo :</span2><br><span1>Data Ingestion & Transformation:</span1> Using tools like SQL, Azure Data Factory, and Python to clean, structure, and aggregate large datasets from multiple sources.<br>
+
+                        <span1>ETL Pipeline Development:</span1> Designed and maintained ETL workflows to ensure reliable and timely data processing.
+                        <br>
+
+                        <span1>Data Modeling:</span1> Created optimized data models and relationships in Power BI for fast and accurate analysis.
+                        <br>
+
+                        <span1>Dashboard Design: </span1>Built interactive Power BI dashboards with custom visuals and KPIs tailored to various business users (sales, operations, finance).</li>
+
+                        <li><span2>Project Intern-Koushiki Innovation(Aug 2023-Dec 2023) :</span2><br>Cricket - Baller analysis for training using python libraries.</li>
+                        <li><span2>Data Scientist Intern - Eaton(July 2023-Sep 2023) :</span2><br>
+                            <span1>Project 1:</span1>Developed a Named Entity Recognition (NER) model to extract key entities from unstructured text, improving data organization and retrieval.
+<br>
+                            <span1>Project 2:</span1> Built a question-answering application leveraging Large Language Models (LLMs) to provide accurate and context-aware responses, enhancing user interaction and accessibility.
+                            <br>
+Conducted data preprocessing, feature engineering, and model fine-tuning to ensure robust and efficient solutions.
+<br>
+Collaborated with cross-functional teams to align solutions with business objectives and improve decision-making processes.</li>
+
+          </ul>
+        </div>
+
+        <!-- Education -->
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span class="edu">B.Tech-Computer Science, Cummins College of Engineering</span><br>2020 - 2024 | CGPA: 7.6</li>
+            <li><span class="edu">Sinhgad College, Pune</span><br>2019 - 2020 | 75%</li>
+            <li><span class="edu">St. Mira's School, Pune</span><br>2017 - 2018 | 90%</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--services-->
+<div id="services">
+    <div class = "container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <a href="https://github.com/Manzzzi">
+              <div>
+                <i class="fa-solid fa-chart-pie"></i>
+                <h2><span1>Dashboard Design: </span1></h2>
+                <p>Built interactive Power BI dashboards with custom visuals and KPIs tailored to various business users (sales, operations, finance)</p>
+                <a href="#">Learn More</a>
+            </div>
+            </a>
+
+            <a href="https://github.com/Manzzzi">
+            <div>
+                <i class="fa-solid fa-list-check"></i>
+                <h2>Project Management: </h2>
+                <p> Project reporting ,Quality control ,
+                    Risk assessment ,Risk management ,
+                    Solution development ,Strategic planning ,
+                    Strong interpersonal skills,Monitoring, 
+                    Multitasking , Planning ,Prioritizing</p>
+                <a href="#">Learn More</a>
+            </div>
+            </a>
+
+            <a href="https://github.com/Manzzzi">
+              <div>
+                  <i class="fa-solid fa-timeline"></i>
+                  <h2>ETL Pipeline Development:</h2>
+                  <p>Designed and maintained ETL workflows to ensure reliable and timely data processing.</p>
+                  <a href="#">Learn More</a>
+              </div>
+            </a>
+
+            <a href="https://github.com/Manzzzi">
+              <div>
+                  <i class="fa-solid fa-magnifying-glass-chart"></i>
+                  <h2>Data Ingestion & Transformation: </h2>
+                  <p>Using tools like SQL, Azure Data Factory, and Python to clean, structure, and aggregate large datasets from multiple sources.</p>
+                  <a href="#">Learn More</a>
+              </div>
+            </a>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+
+      <!-- Work Item 1 -->
+      <div class="work">
+        <img src="images/data_analyst.jpg" alt="Data Analyst Work">
+        <div class="layer">
+          <h3><span class="highlight">Data Analyst</span></h3>
+          <p>
+            <strong>PowerBI Projects:</strong><br>
+            1. Spec Management – Dashboard showing task completion time across teams/departments.<br>
+            2. GSSI – Tracks sleep, stress, and energy levels post-energy drink usage.<br>
+            3. PICO – Dashboards visualizing ingredient effects like Ashwagandha on health.
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <!-- Work Item 2 -->
+      <div class="work">
+        <img src="images/ml.jpg" alt="ML Projects">
+        <div class="layer">
+          <h3><span class="highlight">Machine Learning / Python</span></h3>
+          <p>
+            1. Movie Recommendation – Personalized content-based system.<br>
+            2. Student Performance Prediction – Data visualization using Python.<br>
+            3. Cricket Bowler Analysis – Used Python libraries for performance analysis.
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <!-- Work Item 3 -->
+      <div class="work">
+        <img src="images/dsa.jpg" alt="Database Projects">
+        <div class="layer">
+          <h3><span class="highlight">Database & DSA</span></h3>
+          <p>
+            1. Hotel Management System – Hash Tables in Java for fast access.<br>
+            2. Blood Bank System – SQL + JDBC for efficient blood donation tracking.
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <a href="#" class="btn">See More</a>
+  </div>
+</div>
+
+<!-- -----------------contacts-------------------- -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> Email: <a href="mailto:saptalemansi@gmail.com">saptalemansi@gmail.com</a></p>
+        <p><i class="fa-solid fa-phone"></i> Contact: +91 8208439016</p>
+        <p><i class="fa-brands fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/mansisaptale">Mansi Saptale</a></p>
+        <p><i class="fa-brands fa-square-github"></i> GitHub: <a href="https://github.com/Manzzzi">Mansi</a></p>
+
+        <!-- Move icons inside contact-left so they appear below -->
+        <!-- <div class="social-icons">
+          <a href=""><i class="fa-solid fa-envelopes-bulk"></i></a>
+          <a href=""><i class="fa-solid fa-phone"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-square-github"></i></a>
+        </div>
+      </div> -->
+      <br>
+
+      <a href="images/Mansi_Saptale_Resume.pdf" download class="btn btn2">Download CV</a>
+      
+      <br>
+      <br>
+
+      <!-- <div class="contact-right">
+        <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+
+      </div> -->
+    </div>
+  </div>
+  <div class="copyright">
+    <p>© 2025 Mansi Saptale. All rights reserved.</p>
+  </div>
+</div>
+
+
+
+<!-- JavaScript -->
+<script>
+  function opentab(event, tabname) {
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  for (let tablink of tablinks) {
+  tablink.classList.remove("active-link");
+  }
+
+  for (let tabcontent of tabcontents) {
+  tabcontent.classList.remove("active-tab");
+  }
+
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+
+</body>
+</html>
